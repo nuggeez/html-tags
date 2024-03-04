@@ -1,40 +1,160 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Randoms</title>
+        <title>Kyla's Website</title>
     </head>
-
     <body>
-        <p><strong>Name:</strong> Kyla M. Gabriento</p>
-        <p><strong>Age:</strong> 20 years old</p>
-        <p><strong>Address:</strong> Purok 4A Hillside Gusa, Cagayan de Oro City</p>
-        <img src="img\kyla.jpg" width="300" height="150">
 
-    </body>
-    <div>
-    <h1><b>My Favorites</b></h1>
-    <h2><b>Animals</h2></p>
+      <div>
+        <!-- Document Structure -->
+        <header>
+            <h1>Learning HTML Tags!</h1>
+        </header>
+
+        <!-- Text Format -->
+        <section>
+            <!-- Text Formatting -->
+    <section>
+        <h2>Text Formatting</h2>
+        <p><strong>This is bold text.</strong></p>
+        <p>This is <sup>superscript</sup> text and <sub>subscript</sub> text.</p>
+        <p><small>This is smaller text.</small></p>
+        <p><mark>This is highlighted text.</mark></p>
+        <p><cite>The Great Gatsby</cite> by F. Scott Fitzgerald</p>
+        <p><em>This is italic text.</em></p>
+        <p><u>This is underlined text.</u></p>
+        <p><del>This is strikethrough text.</del></p>  
+      </section>
+            
+            <!-- Lists -->
+    <section>
+        <h2>Lists of my Favorite Songs</h2>
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Huwag na huwag mong sasabihin</li>
+          <li>Into It</li>
+          <li>Popular</li>
+          <li>Get Low</li>
+          <li>Bring me to life</li>
+          <li>Numb</li>
+          <li>Same Ground</li>
+          <li>The Reason</li>
+        </ol>
+        <h2>Lists of my Favorite Anime Series</h2>
+        <h3>Unordered List</h3>
         <ul>
-            <li>cats</li>
-            <li>dogs</li>
-            <li>birds</li>
-            <li>fish</li>
-            <li>penguin</li>
+          <li>Solo Leveling</li>
+          <li>Mashle</li>
+          <li>Ninja Kamui</li>
+          <li>Haikyuu</li>
+          <li>Tokyo Ghoul</li>
+          <li>Blue Exorcist</li>
         </ul>
-    <h3><b> Songs</b></h3> 
-        <ul>
-            <li>same ground</li>
-            <li>i'll be</li>
-            <li>into it</li>
-            <li>back to december</li>
-            <li>honeymoon avenue</li>
-        </ul>
-    </div>
-    <p><b>Favorite Quotes:</p></p>
-    <p>The greatest glory in<br> living lies not in never falling,<br> but in rising every time<br> we fall.</p>
-    <p>The way to get started is to <em>quit talking</em> and <em>begin doing.</em> <sup>-Walt Disney</sup></p>
-    <p>Your <i>time is limited,</i> so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of 
-        other people's thinking. <sub>-Steve Jobs</sub></p>
-    <p>The future belongs to those who believe in the beauty of their dreams. <sub>-Eleanor Roosevelt</sub></p>
+      </section>
+        
+            <!-- Tables -->
+    <section>
+        <h2>Table</h2>
+        <h3>My Favorite Quotes</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Quotes</th>
+              <th>Author</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The greatest glory in living lies not in never falling, but in rising every time we fall.</td>
+              <td>The way to get started is to quit talking and begin doing.</td>
+            </tr>
+            <tr>
+              <td>Nelson Mandela</td>
+              <td>Walt Disney</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+            <!-- Semantic Elements -->
+<section>
+    <h2>Semantic Elements</h2>
+
+    <article>
+        <h3>Article Title</h3>
+        <p>This is an article about semantic elements.</p>
+
+        <!-- Content about Anime -->
+        <h4>Anime: A Fascinating Art Form</h4>
+        <p>Anime is a unique style of animation that originated in Japan and has gained international popularity. It encompasses a wide range of genres, from action and adventure to romance and fantasy.</p>
+        <p>With vibrant visuals, compelling storytelling, and diverse characters, anime has captivated audiences worldwide. It often explores profound themes and emotions, making it a rich and engaging form of entertainment.</p>
+    </article>
+
+    <aside>
+        <h3>Aside Content</h3>
+        <p>This is additional content related to the main article.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Sample Website. All rights reserved.</p>
+    </footer>
+</section>
+
+            <!-- Forms -->
+<section>
+    <h2>Forms</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Cancel" />
+    </form>
+  </section>
+
+            <!-- Links -->
+<section>
+    <h2>Links</h2>
+    <a href="https://www.facebook.com/kyla.gabriento"
+      >This is my link through facebook! add me!</a
+    >
+  </section>
+
+            <!-- Images, Audio, Video -->
+  <section>
+    <h2>Images</h2>
+    <img src="img\kyla.jpg" width="300" height="150">
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="audio/gojo.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>    
+
+    <h2>Video</h2>
+    <section>
+        <video controls width="400">
+            <source src="video/get low.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
     
+    
+
+            <!-- Interactive Elements -->
+    <section>
+        <h2>Interactive Elements</h2>
+        <button onclick="alert('Gahig ulo! Inag dili iclick!')">Wag moh pendotin</button>
+      </section>
+
+            <!-- Meta Information -->
+    <footer>
+      <p>Gihimo ni Kyla ng Gabriento</p>
+      <p>BSIT pala ng 2R3</p>
+    </footer>
+    </div>
+  </body>
 </html>
